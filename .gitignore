@@ -1,0 +1,15 @@
+# Dependencies 
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Build output
+dist/
+client/dist/
+server/dist/
+
+# Environment variables
+.env
+.env.*
+client/.env*
+server/.env*
