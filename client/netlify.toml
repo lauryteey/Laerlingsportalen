@@ -1,0 +1,14 @@
+# Netlify configuration for Læringsportalen
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+# Redirect all routes to index.html for Single Page Application
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Environment variables (these are just placeholders - you'll set real values in Netlify dashboard)
+[build.environment]
+  NODE_VERSION = "20"
